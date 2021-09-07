@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		611A90E426E6551600F35F2C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 611A90E226E6551600F35F2C /* main.cpp */; };
+		611A90FE26E66CAB00F35F2C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 611A90FC26E66CAB00F35F2C /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		611A90D526E6550300F35F2C /* CopyFiles */ = {
+		611A90EE26E66C9300F35F2C /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,13 +23,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		611A90D726E6550300F35F2C /* 041-Lamda捕获外界变量 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "041-Lamda捕获外界变量"; sourceTree = BUILT_PRODUCTS_DIR; };
-		611A90E226E6551600F35F2C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		611A90E326E6551600F35F2C /* main.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = main.hpp; sourceTree = "<group>"; };
+		611A90F026E66C9300F35F2C /* 042-智能指针 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "042-智能指针"; sourceTree = BUILT_PRODUCTS_DIR; };
+		611A90FC26E66CAB00F35F2C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		611A90FD26E66CAB00F35F2C /* main.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = main.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		611A90D426E6550300F35F2C /* Frameworks */ = {
+		611A90ED26E66C9300F35F2C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,65 +39,65 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		611A90CE26E6550300F35F2C = {
+		611A90E726E66C9300F35F2C = {
 			isa = PBXGroup;
 			children = (
-				611A90D926E6550300F35F2C /* 041-Lamda捕获外界变量 */,
-				611A90D826E6550300F35F2C /* Products */,
+				611A90F226E66C9300F35F2C /* 042-智能指针 */,
+				611A90F126E66C9300F35F2C /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		611A90D826E6550300F35F2C /* Products */ = {
+		611A90F126E66C9300F35F2C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				611A90D726E6550300F35F2C /* 041-Lamda捕获外界变量 */,
+				611A90F026E66C9300F35F2C /* 042-智能指针 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		611A90D926E6550300F35F2C /* 041-Lamda捕获外界变量 */ = {
+		611A90F226E66C9300F35F2C /* 042-智能指针 */ = {
 			isa = PBXGroup;
 			children = (
-				611A90E226E6551600F35F2C /* main.cpp */,
-				611A90E326E6551600F35F2C /* main.hpp */,
+				611A90FC26E66CAB00F35F2C /* main.cpp */,
+				611A90FD26E66CAB00F35F2C /* main.hpp */,
 			);
-			path = "041-Lamda捕获外界变量";
+			path = "042-智能指针";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		611A90D626E6550300F35F2C /* 041-Lamda捕获外界变量 */ = {
+		611A90EF26E66C9300F35F2C /* 042-智能指针 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 611A90DE26E6550300F35F2C /* Build configuration list for PBXNativeTarget "041-Lamda捕获外界变量" */;
+			buildConfigurationList = 611A90F726E66C9300F35F2C /* Build configuration list for PBXNativeTarget "042-智能指针" */;
 			buildPhases = (
-				611A90D326E6550300F35F2C /* Sources */,
-				611A90D426E6550300F35F2C /* Frameworks */,
-				611A90D526E6550300F35F2C /* CopyFiles */,
+				611A90EC26E66C9300F35F2C /* Sources */,
+				611A90ED26E66C9300F35F2C /* Frameworks */,
+				611A90EE26E66C9300F35F2C /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "041-Lamda捕获外界变量";
-			productName = "041-Lamda捕获外界变量";
-			productReference = 611A90D726E6550300F35F2C /* 041-Lamda捕获外界变量 */;
+			name = "042-智能指针";
+			productName = "042-智能指针";
+			productReference = 611A90F026E66C9300F35F2C /* 042-智能指针 */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		611A90CF26E6550300F35F2C /* Project object */ = {
+		611A90E826E66C9300F35F2C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1230;
 				TargetAttributes = {
-					611A90D626E6550300F35F2C = {
+					611A90EF26E66C9300F35F2C = {
 						CreatedOnToolsVersion = 12.3;
 					};
 				};
 			};
-			buildConfigurationList = 611A90D226E6550300F35F2C /* Build configuration list for PBXProject "041-Lamda捕获外界变量" */;
+			buildConfigurationList = 611A90EB26E66C9300F35F2C /* Build configuration list for PBXProject "042-智能指针" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -105,29 +105,29 @@
 				en,
 				Base,
 			);
-			mainGroup = 611A90CE26E6550300F35F2C;
-			productRefGroup = 611A90D826E6550300F35F2C /* Products */;
+			mainGroup = 611A90E726E66C9300F35F2C;
+			productRefGroup = 611A90F126E66C9300F35F2C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				611A90D626E6550300F35F2C /* 041-Lamda捕获外界变量 */,
+				611A90EF26E66C9300F35F2C /* 042-智能指针 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		611A90D326E6550300F35F2C /* Sources */ = {
+		611A90EC26E66C9300F35F2C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				611A90E426E6551600F35F2C /* main.cpp in Sources */,
+				611A90FE26E66CAB00F35F2C /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		611A90DC26E6550300F35F2C /* Debug */ = {
+		611A90F526E66C9300F35F2C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -186,7 +186,7 @@
 			};
 			name = Debug;
 		};
-		611A90DD26E6550300F35F2C /* Release */ = {
+		611A90F626E66C9300F35F2C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -238,7 +238,7 @@
 			};
 			name = Release;
 		};
-		611A90DF26E6550300F35F2C /* Debug */ = {
+		611A90F826E66C9300F35F2C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -248,7 +248,7 @@
 			};
 			name = Debug;
 		};
-		611A90E026E6550300F35F2C /* Release */ = {
+		611A90F926E66C9300F35F2C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -261,25 +261,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		611A90D226E6550300F35F2C /* Build configuration list for PBXProject "041-Lamda捕获外界变量" */ = {
+		611A90EB26E66C9300F35F2C /* Build configuration list for PBXProject "042-智能指针" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				611A90DC26E6550300F35F2C /* Debug */,
-				611A90DD26E6550300F35F2C /* Release */,
+				611A90F526E66C9300F35F2C /* Debug */,
+				611A90F626E66C9300F35F2C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		611A90DE26E6550300F35F2C /* Build configuration list for PBXNativeTarget "041-Lamda捕获外界变量" */ = {
+		611A90F726E66C9300F35F2C /* Build configuration list for PBXNativeTarget "042-智能指针" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				611A90DF26E6550300F35F2C /* Debug */,
-				611A90E026E6550300F35F2C /* Release */,
+				611A90F826E66C9300F35F2C /* Debug */,
+				611A90F926E66C9300F35F2C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 611A90CF26E6550300F35F2C /* Project object */;
+	rootObject = 611A90E826E66C9300F35F2C /* Project object */;
 }
