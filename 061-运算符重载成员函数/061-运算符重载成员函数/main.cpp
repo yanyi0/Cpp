@@ -76,6 +76,7 @@ void operator<<(ostream &cout,const char *string){
 int main(){
     Point p1(10,20);
     Point p2 = p1++ + Point(30,40);
+    cout << p1 = cout;
     cin >> p1 >> p2;
     cout << p1 << p2 << endl;
     
