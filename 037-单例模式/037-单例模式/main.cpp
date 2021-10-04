@@ -15,6 +15,8 @@ private:
     ~Rocket(){};
     //用指针更加灵活，放在堆区，不用随时delete掉，没有直接用static Rocket ms_rocket对象放在全局区，始终存在
     static Rocket *ms_rocket;
+    void operator=(const Rocket &){};
+    Rocket(const Rocket &){};
 public:
     //这里要考虑多线程安全
     static Rocket *sharedRocket(){
@@ -33,9 +35,14 @@ public:
 };
 Rocket * Rocket::ms_rocket = NULL;
 int main(){
-    int *p = new int;
-    *p = 10;
-    delete p;//回收内存空间，该块内存空间并不会被清零，可以重新被别人使用，内容被覆盖
+    Rocket *rocket1 = Rocket::sharedRocket();
+    Rocket *rocket2 = rocket1->sharedRocket();
+//    *rocket1 = *rocket2;//同一个对象，赋值操作没有意义，要禁止掉，赋值运算符私有化
+    Rocket *rocket3 = new Rocket(*rocket2);//可以调用拷贝构造函数，没有意义，禁止掉，拷贝构造函数私有化
+    
+//    int *p = new int;
+//    *p = 10;
+//    delete p;//回收内存空间，该块内存空间并不会被清零，可以重新被别人使用，内容被覆盖
 //    Rocket *rocket1 = Rocket::sharedRocket();
 //    Rocket *rocket2 = rocket1->sharedRocket();
 //    delete rocket1;
