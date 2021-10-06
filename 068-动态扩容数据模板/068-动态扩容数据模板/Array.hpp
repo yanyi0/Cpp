@@ -9,7 +9,7 @@
 using namespace std;
 template<typename Item>
 class Array{
-    friend ostream &operator<< <>(ostream &,const Array<Item> &);
+    friend ostream &operator<<<>(ostream &,const Array<Item> &);
     //用于指向首元素
     Item *m_data;
     //元素个数
@@ -48,7 +48,7 @@ void Array<Item>::checkIndex(int index){
         //报错:抛异常
         throw "数组下标越界";
     }
-}
+};
 template<typename Item>
 void Array<Item>::add(Item value){
     if (m_size == m_capacity) {
@@ -81,14 +81,13 @@ Item Array<Item>::get(int index){
 template<typename Item>
 int Array<Item>::size(){
     return m_size;
-}
+};
 template<typename Item>
 Item Array<Item>::operator[](int index){
     return get(index);
-}
-
+};
 template <typename Item>
-ostream &operator<< <>(ostream &cout,const Array<Item> &array){
+ostream &operator<<<>(ostream &cout,const Array<Item> &array){
     cout << "[";
     for(int i=0;i<array.m_size;i++){
         if(i!=0){
@@ -100,4 +99,4 @@ ostream &operator<< <>(ostream &cout,const Array<Item> &array){
 //        }
     }
     return cout << "]";
-}
+};
