@@ -241,7 +241,7 @@
 		611A914426E7399F00F35F2C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8ZSCVU88C4;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -252,7 +252,7 @@
 		611A914526E7399F00F35F2C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8ZSCVU88C4;
 				ENABLE_HARDENED_RUNTIME = YES;
