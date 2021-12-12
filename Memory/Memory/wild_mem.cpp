@@ -17,7 +17,7 @@ public:
     MyFancyObject():buffer_size_(1024),buffer_((char*)malloc(buffer_size_)){};
     ~MyFancyObject(){
         free(buffer_);
-        buffer_ = nullptr;
+//        buffer_ = nullptr;
     }
     void say(){
         printf("buffer: %p,size: %ld\n",buffer_,(long)buffer_size_);
